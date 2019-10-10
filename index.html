@@ -1,0 +1,122 @@
+
+
+<html lang = "en" >
+   <head>
+      <link rel = "stylesheet"
+         href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+      <script type = "text/javascript">    
+         angular.module('firstApplication', ['ngMaterial']);
+     
+      </script>
+   </head>
+   <style>
+.head
+{
+    height:50px;
+    width:100%;
+     text-align: left;
+    line-height:30px;
+    background-color: rgb(168,208,141);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+  width:100%;
+  height:150px;
+  /* border:1px solid black;  */
+  margin: 0px;
+  padding:0px;
+  float:left;
+  
+
+}
+/* .b
+{
+  
+ display:flex;
+ justify-content: space-around;
+} */
+.c
+{
+  text-align: center;
+  background-color: blanchedalmond;
+}
+.box{
+  height:100px;
+  padding:10px;
+}
+.box.box1{
+  background: pink;
+}
+.h{
+        height:60px;
+        width:90px;
+        margin-right: 20px;
+     }
+     .showBorder{
+       border: 2px solid red;
+     }
+   </style>
+   <body ng-app = "firstApplication" ng-cloak>
+     
+      
+          <md-card>
+            <md-card-header class="head">
+             <h2> EXAMBAZAAR </h2>
+             <img src="/image.png" class="h">
+            </md-card-header>
+              <md-card-content> 
+                  <div class="container b" layout="row" layout-wrap >
+                    <div flex="25" flex-xs="50" layout="row" layout-align="end start" class="box box1" >1</div>
+                    <!-- <div flex="25" flex-xs="50" class="box" style="background:rgb(222,234,246);text-align:center" >1</div> -->
+
+                    <div flex="25" flex-xs="50" layout="column" layout-align="start end" class="box" style="background:rgb(222,234,246);" >2</div>
+                    <div flex="25" flex-xs="50" class="box" layout="column" layout-align=" center end"style="background: rgb(251,228,213);"  >3</div>
+                    <div flex="25" flex-xs="50" layout="column" layout-align="end end"class="box"style="background: rgb(242,242,242); ">4</div>
+                    <div flex="25" flex-xs="50" layout="row" layout-align="center end" class="box"  style="background:rgb(255,217,102);">5</div>
+                    <div flex="25" flex-xs="50"  layout="row" layout-align="start end" class="box" style="background:rgb(47,84,150);">6 </div>
+                    <div flex="25" flex-xs="50" layout="column" layout-align=" center start" class="box"style="background:rgb(64,64,64);" >7</div>
+                    <div flex="25" flex-xs="50" layout="row" layout-align="start start" class="box"  style="background:rgb(237,125,49);">8</div>
+
+                  </div>
+
+
+
+
+<!--                  
+                      <div class="a" flex="25" flex-xs="50" style="background:rgb(222,234,246);text-align:center">1</div>
+                         <div class='a' flex="20" style="background:rgb(255,242,204);text-align:right; ">2</div>  
+                         
+                       <div class="a" flex="25" flex-xs="50" style="background: rgb(251,228,213);text-align:right;line-height:150px">3</div>
+                         <div class="a" flex="25" flex-xs="50"style="background: rgb(242,242,242);text-align:end; line-height:290px">4</div>   
+                         
+                  </div>
+                        <div class="container b " layout="row" layout="column"layout-xs="column">
+                       
+                      <div class="a"flex="25" flex-xs="50"style="background:rgb(255,217,102);text-align: center;line-height:290px;">5</div>
+                    <div class="a"flex="25" flex-xs="50"style="background:rgb(47,84,150); text-align:initial;line-height:290px" >6</div>   
+                            
+                   
+                     <div class="a"flex="25" flex-xs="50" style="background:rgb(64,64,64);line-height:150px">7</div>
+                         <div class="a" flex="25" flex-xs="50" style="background:rgb(237,125,49);">8</div>
+                         </div> -->
+                           
+              </md-card-content>
+              
+              <md-card-footer class="c">
+                  THANKYOU!
+              </md-card-footer>
+             </md-card>
+        
+      
+
+   </body>
+</html>
+

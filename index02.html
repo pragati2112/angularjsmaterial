@@ -1,0 +1,119 @@
+<html lang = "en" >
+   <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel = "stylesheet"
+         href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+      <script type = "text/javascript">    
+         angular.module('firstApplication', ['ngMaterial']);
+     
+      </script>
+   </head>
+   <style>
+    
+       .ab
+       {   margin:0px;
+           padding:0px;
+           height:200px;
+           width:11%;
+           
+       }
+       .eb
+       {
+        height:50px;-
+    width:100%;
+     text-align: left;
+    line-height:30px;
+    background-color: rgb(168,208,141);
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+       }
+
+       .foo
+       {
+           
+      text-align: center;
+        background-color: blanchedalmond;
+       }
+       .aa
+       { 
+           display:flex;
+           justify-content: space-evenly;
+       }
+      
+  .ab.b1
+  {
+    background:pink;
+  }
+  .ab.b2
+  {
+    background:rgb(222,234,246);
+  }
+  .ab.b3
+  {
+    background: rgb(251,228,213);
+  }
+  .ab.b4
+  {
+    background: rgb(242,242,242)
+  }
+  .ab.b5
+  {
+    background:rgb(255,217,102)
+  }
+  .ab.b6
+  {
+    background:rgb(47,84,150); 
+  }
+  .ab.b7
+  {
+    background:rgb(64,64,64);
+  }
+  .ab.b8
+  {
+    background:rgb(237,125,49);
+  }
+  .h1{
+        height:60px;
+        width:90px;
+        margin-right: 20px;
+     }
+   </style>
+   <body ng-app = "firstApplication" ng-cloak>
+
+        <md-card>
+                <md-card-header class="eb">
+                 <h2> EXAMBAZAAR </h2>
+                 <img src="image.png" class=h1>
+                </md-card-header>
+                  <md-card-content> 
+                        <div class="container aa" layout="row" layout-wrap >
+                   <div flex-xs="25" flex-sm="25" flex-md="12.5" layout="column" layout-align="start center" class="ab b1">1</div>
+             
+                   <div  flex-xs="25"  flex-sm="25" flex-md="12.5" layout="column" layout-align="start end" class="ab b2">2</div>
+             
+                 
+                   <div  flex-xs="25" flex-sm="25" flex-md="12.5" layout="column" layout-align=" center end" class="ab b3">3</div>
+                   <div  flex-xs="25"  flex-sm="25" flex-md="12.5" layout="column" layout-align="end end" class="ab b4">4</div>
+
+                   <div  flex-xs="25" flex-sm="25" flex-md="12.5" layout="row" layout-align="center end" class="ab b5">5</div>
+                   <div  flex-xs="25" flex-sm="25" flex-md="12.5" layout="row" layout-align="start end" class="ab b6">6</div>
+                   <div  flex-xs="25" flex-sm="25" flex-md="12.5" layout="column " layout-align=" center start" class="ab b7">7</div>
+                   <div   flex-xs="25" flex-sm="25" flex-md="12.5" layout="row" layout-align="start start"class="ab b8">8</div>
+             
+                </div>
+                    
+                  </md-card-content>
+                  <md-card-footer class="foo" >
+                        THANKYOU!
+                    </md-card-footer>
+        </md-card>
+
+   </body>
+   </html>
